@@ -19,17 +19,17 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 ### data
 * Source
 * Enter NCBI GEO to get the data
-NCBI GEO : https://www.ncbi.nlm.nih.gov/geo/
+   NCBI GEO : https://www.ncbi.nlm.nih.gov/geo/
 
-GSE67587 for D. sechellia (Taiwan)
+   GSE67587 for D. sechellia (Taiwan)
 
-GSE67861 for D. sechellia (Japan)
+   GSE67861 for D. sechellia (Japan)
 
-GSE67862 for D. simulans (Japan)
+   GSE67862 for D. simulans (Japan)
 * Size
-Total size of D. sechellia (Taiwan) = 24.9G
-Total size of D. sechellia (Japan) = 26.1G
-Total size of D. simulans (Japan) = 24.6G
+* Total size of D. sechellia (Taiwan) = 24.9G
+* Total size of D. sechellia (Japan) = 26.1G
+* Total size of D. simulans (Japan) = 24.6G
 
 ### code
 * Which packages do you use? 
