@@ -20,8 +20,11 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 * Source
 * Enter NCBI GEO to get the data
 NCBI GEO : https://www.ncbi.nlm.nih.gov/geo/
+
 GSE67587 for D. sechellia (Taiwan)
+
 GSE67861 for D. sechellia (Japan)
+
 GSE67862 for D. simulans (Japan)
 * Size
 Total size of D. sechellia (Taiwan) = 24.9G
