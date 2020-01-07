@@ -3,12 +3,6 @@
 * 吳映函, 108753102
 * 陳庭軒, 108753109
 
-### Demo 
-You might provide an example commend or few commends to reproduce your analysis
-```R
-Rscript code/your_script.R --input data/training --output results/performance.tsv
-```
-
 ## Folder organization and its related information
 
 ### docs
@@ -34,15 +28,39 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 ### code
 * Which packages do you use? 
   * original packages in the paper
+  TopHat 2.0.6
+  FPKMs by Cufflinks
   * additional packages you found
+  Bowtie2
+  samtools
+
+  * Use this to install new package from bioconductor
+  ```
+  source("https://bioconductor.org/biocLite.R")
+  biocLite("package name")
+  ```
+
 * Analysis steps
+refer to https://www.itread01.com/content/1541774792.html?fbclid=IwAR3DGnnP8EYY6vbLew637Ef8v2S56kFPpX_w8bwW6bm9xgE_gPi2NJotPr0
+
 
 ### results
-* Which part of the paper do you reproduce?
-* Any improvement or change by your package?
+* still exist error message now
 
 ## References
 * Packages you use
-* Related publications
+* cummeRbund
+https://www.bioconductor.org/packages/release/bioc/html/cummeRbund.html
 
+* IGV
+https://yourgene.pixnet.net/blog/post/96403107-integrative-genomics-viewer
+
+* fastq
+https://www.ebi.ac.uk/ena
+
+* Reference genomes(dm3)
+https://www.encodeproject.org/files/dm3/
+
+* Reference genomes
+https://hgdownload.soe.ucsc.edu/downloads.html
 
