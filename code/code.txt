@@ -1,0 +1,19 @@
+*connect to ubuntu
+>ssh -i C:\Users\sun66\Desktop\key\kp1578227100065.pem ubuntu@203.145.222.235
+
+*install package
+>source("https://bioconductor.org/biocLite.R")
+>biocLite("cummeRbund")
+
+*move local file to ubuntu
+>scp -i C:\Users\sun66\Desktop\key\kp1578227100065.pem localfile ubuntu@203.145.222.235:/home/ubuntu/bio
+
+*unzip .gz
+>gzip -d SRR1973487_1.fastq.gz
+
+*
+>axel -n 30 www
+
+*tophat
+>tophat -I 1000 -i 20 -o SRR1952772_tophat_out dm3_index SRR1952772_1.fastq SRR1952772_2.fastq
+>samtools index SRR1952772_tophat_out/accepted_hits.bam 
